@@ -1,2 +1,55 @@
 # sql_data_analytics_project
-A collection of SQL scripts showcasing data exploration, analytics, and reporting techniques used in real-world data analysis.
+## 🚀 Exploratory_Data_Analysis_(EDA) Planning
+
+This section outlines the advanced analytical techniques applied in this project to derive deeper insights beyond basic exploration.
+
+This roadmap analytics layer focuses on analysing patterns, performance, and data distribution across time and segments. 
+It enables deeper business insights through cumulative analysis, trend evaluation, performance measurement, and proportional analysis.
+
+<p align="center">
+  <img src="docs/Project_Roadmap/Exploratory_Data_Analysis_(EDA).png" width="720">
+</p>
+
+### The Secret Dimensions & Measures?
+- That is a numeric value "YES", does it make sense to aggregate "YES" then it's Measure. If both conditions are false, then it's Dimension.
+
+<p align="center">
+  <img src="docs/Exploratory_Data_Analysis_(EDA)/Measure_Dimension.png" width="720">
+</p>
+
+**Let's Check Column**
+Here are few example column names
+
+<p align="center">
+  <img src="docs/Exploratory_Data_Analysis_(EDA)/Dimension_Measure_Column.png" width="720">
+</p>
+
+
+### Analytics Components
+
+**Database Exploration:**
+
+  - **SQL TASK**
+    
+  1. Explore all objects in the Database
+  2. Explore all columns in the Database
+
+**SQL Implementation**
+SQL scripts: - `scripts/Date-And_Time_Functions_Prac_1.sql`
+  
+- **Change Over Time (Trends):**  
+  Analyse how key metrics evolve across time periods to identify growth patterns, seasonality, and anomalies.
+
+- **Cumulative Analysis:**  
+  Evaluate running totals and cumulative contributions to understand long-term impact and progression.
+
+- **Performance Analysis:**  
+  Compare actual values against benchmarks, targets, or prior periods to assess performance.
+
+- **Part-to-Whole Analysis:**  
+  Understand proportional contributions of categories to overall totals.
+
+- **Data Segmentation:**  
+  Break down data into meaningful groups to uncover hidden patterns and behavioural differences.
+
+
