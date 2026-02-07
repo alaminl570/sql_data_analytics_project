@@ -25,7 +25,7 @@ Here are few example column names
 </p>
 
 
-### Analytics Components
+### 1. Analytics Components
 
 **Database Exploration:**
 
@@ -37,6 +37,17 @@ Here are few example column names
 **SQL Implementation**
 - [`01_database_exploration.sql`](scripts/01_database_exploration.sql)
   
+### 2. Exploratory Data Analysis Dimensions Exploration
+
+<p align="center">
+  <img src="docs/Exploratory_Data_Analysis_(EDA)/02_dimensions_exploration.png" width="720">
+</p>
+
+
+
+
+
+
 - **Change Over Time (Trends):**  
   Analyse how key metrics evolve across time periods to identify growth patterns, seasonality, and anomalies.
 
