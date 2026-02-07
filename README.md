@@ -35,7 +35,7 @@ Here are few example column names
   2. Explore all columns in the Database
 
 **SQL Implementation**
-SQL scripts: - `scripts/Date-And_Time_Functions_Prac_1.sql`
+- [`01_database_exploration.sql`](scripts/01_database_exploration.sql)
   
 - **Change Over Time (Trends):**  
   Analyse how key metrics evolve across time periods to identify growth patterns, seasonality, and anomalies.
