@@ -43,7 +43,13 @@ Here are few example column names
   <img src="docs/Exploratory_Data_Analysis_(EDA)/02_dimensions_exploration.png" width="720">
 </p>
 
+ - **SQL TASK**
+    
+  1. Explore all the countries our customers come from.
+  2. Explore all products categories "The Major Divisions"
 
+**SQL Implementation**
+- [`02_dimensions_exploration.sql`](scripts/02_dimensions_exploration.sql)
 
 
 
