@@ -60,17 +60,36 @@ Here are few example column names
  - **SQL TASK**
     
   1. Determine the first and last order date
-  2. How many years of sales are avaiable
+  2. How many years of sales are available?
   3. Find the youngest and oldest customers
 
 **SQL Implementation**
-- [`02_dimensions_exploration.sql`](scripts/02_dimensions_exploration.sql)
+- [`03_date_range_exploration.sql`](scripts/03_date_range_exploration.sql)
 
 **SQL Table Results Screenshots**
 <p align="center">
   <img src="docs/sql_results/03_date_range_exploration.png" width="720">
 </p>
 
+### 4. Measures Exploration
+
+<p align="center">
+  <img src="docs/Exploratory_Data_Analysis_(EDA)/03_date_range_exploration.png" width="720">
+</p>
+
+ - **SQL TASK**
+    
+  1. Determine the first and last order date
+  2. How many years of sales are available?
+  3. Find the youngest and oldest customers
+
+**SQL Implementation**
+- [`03_date_range_exploration.sql`](scripts/03_date_range_exploration.sql)
+
+**SQL Table Results Screenshots**
+<p align="center">
+  <img src="docs/sql_results/03_date_range_exploration.png" width="720">
+</p>
 
 
 - **Change Over Time (Trends):**  
