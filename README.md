@@ -74,7 +74,7 @@ Here are few example column names
 ### 4. Measures Exploration
 
 <p align="center">
-  <img src="docs/Exploratory_Data_Analysis_(EDA)/03_date_range_exploration.png" width="720">
+  <img src="docs/Exploratory_Data_Analysis_(EDA)/04_measures_exploration.png" width="720">
 </p>
 
  - **SQL TASK**
