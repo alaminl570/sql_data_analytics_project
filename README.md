@@ -79,9 +79,13 @@ Here are few example column names
 
  - **SQL TASK**
     
-  1. Determine the first and last order date
-  2. How many years of sales are available?
-  3. Find the youngest and oldest customers
+  1. Find the total sales
+  2. Find how many items are sold
+  3. Find the average selling price
+  4. Find the total number of orders
+  5. Find the total number of products
+  6. Find the total number of customers
+  7. Find the total number of customers who have placed an order
 
 **SQL Implementation**
 - [`03_date_range_exploration.sql`](scripts/03_date_range_exploration.sql)
