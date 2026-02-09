@@ -100,7 +100,7 @@ Here are few example column names
 ### 5. Magnitude Analysis
 
 <p align="center">
-  <img src="docs/Exploratory_Data_Analysis_(EDA)/04_measures_exploration.png" width="720">
+  <img src="docs/Exploratory_Data_Analysis_(EDA)/05_magnitude_analysis.png" width="720">
 </p>
 
  - **SQL TASK**
