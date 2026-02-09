@@ -86,15 +86,41 @@ Here are few example column names
   5. Find the total number of products
   6. Find the total number of customers
   7. Find the total number of customers who have placed an order
+  8. Generate a report that shows all key metrics of the business
 
 **SQL Implementation**
-- [`03_date_range_exploration.sql`](scripts/03_date_range_exploration.sql)
+- [`04_measures_exploration.sql`](scripts/04_measures_exploration.sql)
 
 **SQL Table Results Screenshots**
 <p align="center">
-  <img src="docs/sql_results/03_date_range_exploration.png" width="720">
+  <img src="docs/sql_results/04_measures_exploration.png" width="720">
 </p>
 
+
+### 5. Magnitude Analysis
+
+<p align="center">
+  <img src="docs/Exploratory_Data_Analysis_(EDA)/04_measures_exploration.png" width="720">
+</p>
+
+ - **SQL TASK**
+    
+  1. Find the total sales
+  2. Find how many items are sold
+  3. Find the average selling price
+  4. Find the total number of orders
+  5. Find the total number of products
+  6. Find the total number of customers
+  7. Find the total number of customers who have placed an order
+  8. Generate a report that shows all key metrics of the business
+
+**SQL Implementation**
+- [`04_measures_exploration.sql`](scripts/04_measures_exploration.sql)
+
+**SQL Table Results Screenshots**
+<p align="center">
+  <img src="docs/sql_results/04_measures_exploration.png" width="720">
+</p>
 
 - **Change Over Time (Trends):**  
   Analyse how key metrics evolve across time periods to identify growth patterns, seasonality, and anomalies.
