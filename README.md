@@ -121,6 +121,31 @@ Here are few example column names
   <img src="docs/sql_results/05_magnitude_analysis.png" width="720">
 </p>
 
+
+### 6. Ranking Analysis
+
+<p align="center">
+  <img src="docs/Exploratory_Data_Analysis_(EDA)/05_magnitude_analysis.png" width="720">
+</p>
+
+ - **SQL TASK**
+    
+  1. Find the total customers by countries
+  2. Find total customers by gender
+  3. Find total products by category
+  4. What are the average costs in each category
+  5. What is the total revenue generated for each category
+  6. Find each customer's total revenue
+  7. What is the distribution of sold items across countries
+
+**SQL Implementation**
+- [`05_magnitude_analysis.sql`](scripts/05_magnitude_analysis.sql)
+
+**SQL Table Results Screenshots**
+<p align="center">
+  <img src="docs/sql_results/05_magnitude_analysis.png" width="720">
+</p>
+
 - **Change Over Time (Trends):**  
   Analyse how key metrics evolve across time periods to identify growth patterns, seasonality, and anomalies.
 
