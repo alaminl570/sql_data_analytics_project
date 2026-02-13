@@ -156,7 +156,7 @@ The advanced analytics layer focuses on evaluating patterns, performance, and da
   <img src="docs/Project_Roadmap/Advance_Analytics.png" width="720">
 </p>
 
-### 6. Ranking Analysis
+### 7. Change Over Time Analysis
 
 <p align="center">
   <img src="docs/Exploratory_Data_Analysis_(EDA)/06_ranking_analysis.png" width="720">
