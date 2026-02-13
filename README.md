@@ -146,19 +146,38 @@ Here are few example column names
   <img src="docs/sql_results/05_magnitude_analysis.png" width="720">
 </p>
 
-- **Change Over Time (Trends):**  
-  Analyse how key metrics evolve across time periods to identify growth patterns, seasonality, and anomalies.
+## 🚀 Advance_Analytics Planning
 
-- **Cumulative Analysis:**  
-  Evaluate running totals and cumulative contributions to understand long-term impact and progression.
+This section outlines the advanced analytical techniques applied in this project to move beyond basic data exploration and uncover deeper business insights.
 
-- **Performance Analysis:**  
-  Compare actual values against benchmarks, targets, or prior periods to assess performance.
+The advanced analytics layer focuses on evaluating patterns, performance, and data distribution across time, categories, and segments. It transforms raw data into meaningful metrics that support strategic decision-making.
 
-- **Part-to-Whole Analysis:**  
-  Understand proportional contributions of categories to overall totals.
+<p align="center">
+  <img src="docs/Project_Roadmap/Advance_Analytics.png" width="720">
+</p>
 
-- **Data Segmentation:**  
-  Break down data into meaningful groups to uncover hidden patterns and behavioural differences.
+### 6. Ranking Analysis
+
+<p align="center">
+  <img src="docs/Exploratory_Data_Analysis_(EDA)/06_ranking_analysis.png" width="720">
+</p>
+
+ - **SQL TASK**
+    
+  1. Find the total customers by countries
+  2. Find total customers by gender
+  3. Find total products by category
+  4. What are the average costs in each category
+  5. What is the total revenue generated for each category
+  6. Find each customer's total revenue
+  7. What is the distribution of sold items across countries
+
+**SQL Implementation**
+- [`05_magnitude_analysis.sql`](scripts/05_magnitude_analysis.sql)
+
+**SQL Table Results Screenshots**
+<p align="center">
+  <img src="docs/sql_results/05_magnitude_analysis.png" width="720">
+</p>
 
 
