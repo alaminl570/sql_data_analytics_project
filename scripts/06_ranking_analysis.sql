@@ -22,7 +22,7 @@ ON p.product_key = s.product_key
 GROUP BY p.product_name
 ORDER BY total_revenue DESC;
 
--- What are the 5 worst-performing products in term of sales?
+-- What are the 5 worst-performing products in terms of sales?
 SELECT TOP 5
     p.product_name,
     SUM (s.sales_amount) AS total_revenue
@@ -61,3 +61,4 @@ GROUP BY
     c.first_name,
     c.last_name
 ORDER BY total_orders ;
+
