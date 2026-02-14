@@ -159,7 +159,7 @@ The advanced analytics layer focuses on evaluating patterns, performance, and da
 ### 7. Change Over Time Analysis
 
 <p align="center">
-  <img src="docs/Exploratory_Data_Analysis_(EDA)/06_ranking_analysis.png" width="720">
+  <img src="docs/Advance_Analytics/07_change_over_time_analysis.png" width="720">
 </p>
 
  - **SQL TASK**
