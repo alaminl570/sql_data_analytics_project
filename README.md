@@ -130,20 +130,17 @@ Here are few example column names
 
  - **SQL TASK**
     
-  1. Find the total customers by countries
-  2. Find total customers by gender
-  3. Find total products by category
-  4. What are the average costs in each category
-  5. What is the total revenue generated for each category
-  6. Find each customer's total revenue
-  7. What is the distribution of sold items across countries
+  1. Which 5 Products generate the highest revenue
+  2. What are the 5 worst-performing products in terms of sales?
+  3. Find the top 10 customers who have generated the highest revenue
+  4. The 3 customers with the fewest orders placed
 
 **SQL Implementation**
-- [`05_magnitude_analysis.sql`](scripts/05_magnitude_analysis.sql)
+- [`06_ranking_analysis.sql`](scripts/06_ranking_analysis.sql)
 
 **SQL Table Results Screenshots**
 <p align="center">
-  <img src="docs/sql_results/05_magnitude_analysis.png" width="720">
+  <img src="docs/sql_results/06_ranking_analysis.png" width="720">
 </p>
 
 ## 🚀 Advance_Analytics Planning
@@ -164,20 +161,20 @@ The advanced analytics layer focuses on evaluating patterns, performance, and da
 
  - **SQL TASK**
     
-  1. Find the total customers by countries
-  2. Find total customers by gender
-  3. Find total products by category
-  4. What are the average costs in each category
-  5. What is the total revenue generated for each category
-  6. Find each customer's total revenue
-  7. What is the distribution of sold items across countries
+  1. Analyse sales performance over time
+  2. Quick Date Functions
+  3. Analyse sales performance over the year
+  4. Analyse sales performance over the month
+  5. Analyse sales performance over the year & month
+  6. Analyse sales performance over the year & month (Format)
+  7. Analyse sales performance over the year & month (Using DATETRUNC)
 
 **SQL Implementation**
-- [`05_magnitude_analysis.sql`](scripts/05_magnitude_analysis.sql)
+- [`07_change_over_time_analysis.sql`](scripts/07_change_over_time_analysis.sql)
 
 **SQL Table Results Screenshots**
 <p align="center">
-  <img src="docs/sql_results/05_magnitude_analysis.png" width="720">
+  <img src="docs/sql_results/07_change_over_time_analysis.png" width="720">
 </p>
 
 
