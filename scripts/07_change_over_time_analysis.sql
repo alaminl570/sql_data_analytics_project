@@ -1,0 +1,78 @@
+/*
+===============================================================================
+Change Over Time Analysis
+===============================================================================
+Purpose:
+    - To track trends, growth, and changes in key metrics over time.
+    - For time-series analysis and identifying seasonality.
+    - To measure growth or decline over specific periods.
+
+SQL Functions Used:
+    - Date Functions: DATEPART(), DATETRUNC(), FORMAT()
+    - Aggregate Functions: SUM(), COUNT(), AVG()
+===============================================================================
+*/
+
+-- Analyse sales performance over time
+-- Quick Date Functions
+
+
+-- Analyse sales performance over year
+SELECT 
+    YEAR (order_date) AS order_year,
+    SUM (sales_amount) AS total_sale,
+    COUNT (DISTINCT customer_key) AS total_customers,
+    SUM (quantity) AS total_quantity
+FROM sales
+WHERE order_date IS NOT NULL
+GROUP BY YEAR (order_date)
+ORDER BY YEAR (order_date);
+
+
+-- Analyse sales performance over month
+SELECT 
+    MONTH (order_date) AS order_month,
+    SUM (sales_amount) AS total_sales,
+    COUNT (DISTINCT customer_key) AS total_customer,
+    SUM (quantity) AS total_qualtity
+FROM sales
+WHERE order_date IS NOT NULL
+GROUP BY MONTH (order_date)
+ORDER BY MONTH (order_date);
+
+-- Analyse sales performance over year & month
+SELECT 
+    YEAR (order_date) AS order_year,
+    MONTH (order_date) AS order_month,
+    SUM (sales_amount) AS total_sales,
+    COUNT (DISTINCT customer_key) AS total_customer,
+    SUM (quantity) AS total_qualtity
+FROM sales
+WHERE order_date IS NOT NULL
+GROUP BY YEAR (order_date), MONTH (order_date)
+ORDER BY YEAR (order_date), MONTH (order_date);
+
+
+-- Analyse sales performance over year & month (Format)
+SELECT 
+    FORMAT (order_date, 'yyy-MMM') AS order_date,
+    SUM (sales_amount) AS total_sales,
+    COUNT (DISTINCT customer_key) AS total_customer,
+    SUM (quantity) AS total_qualtity
+FROM sales
+WHERE order_date IS NOT NULL
+GROUP BY FORMAT (order_date, 'yyy-MMM')
+ORDER BY FORMAT (order_date, 'yyy-MMM'); -- Becarefull FORMAT Function store data in string 
+                                         -- thats why wen can't SORT DATA correctly
+
+-- Analyse sales performance over year & month (Using DATETRUNC)
+SELECT 
+    DATETRUNC (MONTH, order_date) AS order_date,
+    SUM (sales_amount) AS total_sales,
+    COUNT (DISTINCT customer_key) AS total_customer,
+    SUM (quantity) AS total_qualtity
+FROM sales
+WHERE order_date IS NOT NULL
+GROUP BY DATETRUNC (MONTH, order_date)
+ORDER BY DATETRUNC (MONTH, order_date);
+
