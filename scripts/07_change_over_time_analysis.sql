@@ -17,7 +17,7 @@ SQL Functions Used:
 -- Quick Date Functions
 
 
--- Analyse sales performance over year
+-- Analyse sales performance over the year
 SELECT 
     YEAR (order_date) AS order_year,
     SUM (sales_amount) AS total_sale,
@@ -29,7 +29,7 @@ GROUP BY YEAR (order_date)
 ORDER BY YEAR (order_date);
 
 
--- Analyse sales performance over month
+-- Analyse sales performance over the month
 SELECT 
     MONTH (order_date) AS order_month,
     SUM (sales_amount) AS total_sales,
@@ -40,7 +40,7 @@ WHERE order_date IS NOT NULL
 GROUP BY MONTH (order_date)
 ORDER BY MONTH (order_date);
 
--- Analyse sales performance over year & month
+-- Analyse sales performance over the year & month
 SELECT 
     YEAR (order_date) AS order_year,
     MONTH (order_date) AS order_month,
@@ -63,9 +63,9 @@ FROM sales
 WHERE order_date IS NOT NULL
 GROUP BY FORMAT (order_date, 'yyy-MMM')
 ORDER BY FORMAT (order_date, 'yyy-MMM'); -- Becarefull FORMAT Function store data in string 
-                                         -- thats why wen can't SORT DATA correctly
+                                         -- that's why we can't SORT DATA correctly
 
--- Analyse sales performance over year & month (Using DATETRUNC)
+-- Analyse sales performance over the year & month (Using DATETRUNC)
 SELECT 
     DATETRUNC (MONTH, order_date) AS order_date,
     SUM (sales_amount) AS total_sales,
@@ -75,4 +75,5 @@ FROM sales
 WHERE order_date IS NOT NULL
 GROUP BY DATETRUNC (MONTH, order_date)
 ORDER BY DATETRUNC (MONTH, order_date);
+
 
