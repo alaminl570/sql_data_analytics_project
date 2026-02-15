@@ -185,20 +185,17 @@ The advanced analytics layer focuses on evaluating patterns, performance, and da
 
  - **SQL TASK**
     
-  1. Analyse sales performance over time
-  2. Quick Date Functions
-  3. Analyse sales performance over the year
-  4. Analyse sales performance over the month
-  5. Analyse sales performance over the year & month
-  6. Analyse sales performance over the year & month (Format)
-  7. Analyse sales performance over the year & month (Using DATETRUNC)
+  1. Monthly total sales with cumulative total
+  2.  Monthly sales with partitioned running total (per month)
+  3. Yearly total sales with cumulative total
+  4. Yearly sales with cumulative total and moving average
 
 **SQL Implementation**
-- [`07_change_over_time_analysis.sql`](scripts/07_change_over_time_analysis.sql)
+- [`08_cumulative_analysis.sql`](scripts/08_cumulative_analysis.sql)
 
 **SQL Table Results Screenshots**
 <p align="center">
-  <img src="docs/sql_results/07_change_over_time_analysis.png" width="720">
+  <img src="docs/sql_results/08_cumulative_analysis.png" width="720">
 </p>
 
 
