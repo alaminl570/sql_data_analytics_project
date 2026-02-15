@@ -198,4 +198,25 @@ The advanced analytics layer focuses on evaluating patterns, performance, and da
   <img src="docs/sql_results/08_cumulative_analysis.png" width="720">
 </p>
 
+### 9. Performance Analysis
+
+<p align="center">
+  <img src="docs/Advance_Analytics/09_performance_analysis.png" width="720">
+</p>
+
+ - **SQL TASK**
+    
+  1. Monthly total sales with cumulative total
+  2.  Monthly sales with partitioned running total (per month)
+  3. Yearly total sales with cumulative total
+  4. Yearly sales with cumulative total and moving average
+
+**SQL Implementation**
+- [`08_cumulative_analysis.sql`](scripts/08_cumulative_analysis.sql)
+
+**SQL Table Results Screenshots**
+<p align="center">
+  <img src="docs/sql_results/08_cumulative_analysis.png" width="720">
+</p>
+
 
