@@ -177,4 +177,28 @@ The advanced analytics layer focuses on evaluating patterns, performance, and da
   <img src="docs/sql_results/07_change_over_time_analysis.png" width="720">
 </p>
 
+### 8. Cumulative Analysis
+
+<p align="center">
+  <img src="docs/Advance_Analytics/07_change_over_time_analysis.png" width="720">
+</p>
+
+ - **SQL TASK**
+    
+  1. Analyse sales performance over time
+  2. Quick Date Functions
+  3. Analyse sales performance over the year
+  4. Analyse sales performance over the month
+  5. Analyse sales performance over the year & month
+  6. Analyse sales performance over the year & month (Format)
+  7. Analyse sales performance over the year & month (Using DATETRUNC)
+
+**SQL Implementation**
+- [`07_change_over_time_analysis.sql`](scripts/07_change_over_time_analysis.sql)
+
+**SQL Table Results Screenshots**
+<p align="center">
+  <img src="docs/sql_results/07_change_over_time_analysis.png" width="720">
+</p>
+
 
