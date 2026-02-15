@@ -180,7 +180,7 @@ The advanced analytics layer focuses on evaluating patterns, performance, and da
 ### 8. Cumulative Analysis
 
 <p align="center">
-  <img src="docs/Advance_Analytics/07_change_over_time_analysis.png" width="720">
+  <img src="docs/Advance_Analytics/08_cumulative_analysis.png" width="720">
 </p>
 
  - **SQL TASK**
