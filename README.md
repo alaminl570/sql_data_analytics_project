@@ -221,10 +221,10 @@ The advanced analytics layer focuses on evaluating patterns, performance, and da
   <img src="docs/sql_results/09_performance_analysis.png" width="720">
 </p>
 
-### 10. Performance Analysis
+### 10. Part-To-Whole Analysis
 
 <p align="center">
-  <img src="docs/Advance_Analytics/09_performance_analysis.png" width="720">
+  <img src="docs/Advance_Analytics/10_data_segmentation.png" width="720">
 </p>
 
  - **SQL TASK**
