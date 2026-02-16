@@ -229,19 +229,17 @@ The advanced analytics layer focuses on evaluating patterns, performance, and da
 
  - **SQL TASK**
     
-  1. YEARLY PRODUCT PERFORMANCE (Year-over-Year Analysis)
-  2. Historical average sales per product (across all years)
-  3. Previous year's sales for YoY comparison
-  4. MONTHLY PRODUCT PERFORMANCE (Month-over-Month Analysis)
-  5. Historical monthly average per product
-  6. Previous month's sales within same product
+  1. Identify how much each category contributes to total company sales
+  2. Overall company sales (same value repeated for each row)
+  3. Percentage contribution of each category to overall sales
+  4. Highest contributing categories first
 
 **SQL Implementation**
-- [`09_performance_analysis.sql`](scripts/09_performance_analysis.sql)
+- [`10_data_segmentation.sql`](scripts/10_data_segmentation.sql)
 
 **SQL Table Results Screenshots**
 <p align="center">
-  <img src="docs/sql_results/09_performance_analysis.png" width="720">
+  <img src="docs/sql_results/10_data_segmentation.png" width="720">
 </p>
 
 
