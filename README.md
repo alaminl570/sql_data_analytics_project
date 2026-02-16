@@ -216,7 +216,7 @@ The advanced analytics layer focuses on evaluating patterns, performance, and da
 
 **SQL Table Results Screenshots**
 <p align="center">
-  <img src="docs/sql_results/08_cumulative_analysis.png" width="720">
+  <img src="docs/sql_results/09_performance_analysis.png" width="720">
 </p>
 
 
