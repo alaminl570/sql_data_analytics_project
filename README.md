@@ -206,13 +206,38 @@ The advanced analytics layer focuses on evaluating patterns, performance, and da
 
  - **SQL TASK**
     
-  1. Monthly total sales with cumulative total
-  2.  Monthly sales with partitioned running total (per month)
-  3. Yearly total sales with cumulative total
-  4. Yearly sales with cumulative total and moving average
+  1. YEARLY PRODUCT PERFORMANCE (Year-over-Year Analysis)
+  2. Historical average sales per product (across all years)
+  3. Previous year's sales for YoY comparison
+  4. MONTHLY PRODUCT PERFORMANCE (Month-over-Month Analysis)
+  5. Historical monthly average per product
+  6. Previous month's sales within same product
 
 **SQL Implementation**
-- [`08_cumulative_analysis.sql`](scripts/08_cumulative_analysis.sql)
+- [`09_performance_analysis.sql`](scripts/09_performance_analysis.sql)
+
+**SQL Table Results Screenshots**
+<p align="center">
+  <img src="docs/sql_results/09_performance_analysis.png" width="720">
+</p>
+
+### 10. Performance Analysis
+
+<p align="center">
+  <img src="docs/Advance_Analytics/09_performance_analysis.png" width="720">
+</p>
+
+ - **SQL TASK**
+    
+  1. YEARLY PRODUCT PERFORMANCE (Year-over-Year Analysis)
+  2. Historical average sales per product (across all years)
+  3. Previous year's sales for YoY comparison
+  4. MONTHLY PRODUCT PERFORMANCE (Month-over-Month Analysis)
+  5. Historical monthly average per product
+  6. Previous month's sales within same product
+
+**SQL Implementation**
+- [`09_performance_analysis.sql`](scripts/09_performance_analysis.sql)
 
 **SQL Table Results Screenshots**
 <p align="center">
