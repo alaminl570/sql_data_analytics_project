@@ -3,11 +3,11 @@
 PART-TO-WHOLE SALES ANALYSIS
 ===============================================================================
 Purpose:
-    This query calculates each product category’s contribution to total sales.
+    This query calculates each product categoryâ€™s contribution to total sales.
     It determines:
-        • Total sales per category
-        • Overall company sales
-        • Percentage contribution of each category
+        â€¢ Total sales per category
+        â€¢ Overall company sales
+        â€¢ Percentage contribution of each category
 
     This supports revenue concentration analysis and category benchmarking.
 
@@ -47,3 +47,4 @@ SELECT
 
 FROM category_sales
 ORDER BY total_sales DESC;  -- Highest contributing categories first
+
