@@ -235,7 +235,7 @@ The advanced analytics layer focuses on evaluating patterns, performance, and da
   4. Highest contributing categories first
 
 **SQL Implementation**
-- [`10_data_segmentation.sql`](scripts/10_part_to_whole_analysis.sql)
+- [`10_part_to_whole_analysis.sql`](scripts/10_part_to_whole_analysis.sql)
 
 **SQL Table Results Screenshots**
 <p align="center">
