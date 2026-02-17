@@ -224,7 +224,7 @@ The advanced analytics layer focuses on evaluating patterns, performance, and da
 ### 10. Part-To-Whole Analysis
 
 <p align="center">
-  <img src="docs/Advance_Analytics/10_data_segmentation.png" width="720">
+  <img src="docs/Advance_Analytics/10_part_to_whole_analysis.png" width="720">
 </p>
 
  - **SQL TASK**
@@ -235,7 +235,7 @@ The advanced analytics layer focuses on evaluating patterns, performance, and da
   4. Highest contributing categories first
 
 **SQL Implementation**
-- [`10_data_segmentation.sql`](scripts/10_data_segmentation.sql)
+- [`10_data_segmentation.sql`](scripts/10_part_to_whole_analysis.sql)
 
 **SQL Table Results Screenshots**
 <p align="center">
