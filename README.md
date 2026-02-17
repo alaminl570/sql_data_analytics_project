@@ -267,4 +267,29 @@ The advanced analytics layer focuses on evaluating patterns, performance, and da
   <img src="docs/sql_results/11_data_segmentation.png" width="720">
 </p>
 
+### 12. Build Customer Report
+
+<p align="center">
+  <img src="docs/Advance_Analytics/11_data_segmentation.png" width="720">
+</p>
+
+ - **SQL TASK**
+    
+  1) Product Segmentation:
+       - Classifies products into cost ranges.
+       - Counts how many products fall into each range.
+
+  2) Customer Segmentation:
+       - Classifies customers based on lifespan and total spending.
+       - Categorises them as VIP, Regular, or New.
+       - Counts customers in each segment.
+
+**SQL Implementation**
+- [`11_data_segmentation.sql`](scripts/11_data_segmentation.sql)
+
+**SQL Table Results Screenshots**
+<p align="center">
+  <img src="docs/sql_results/11_data_segmentation.png" width="720">
+</p>
+
 
