@@ -292,4 +292,29 @@ The advanced analytics layer focuses on evaluating patterns, performance, and da
   <img src="docs/sql_results/12_report_customers.png" width="720">
 </p>
 
+### 13. Build Products Report
+
+ - **SQL TASK**
+    
+1. Gathers essential fields such as product name, category, subcategory, and cost.
+2. Segment products by revenue to identify High-Performers, Mid-Range, or Low-Performers.
+3. Aggregates product-level metrics:
+   - total orders
+    - total sales
+    - total quantity sold
+    - total customers (unique)
+    - lifespan (in months)
+4. Calculates valuable KPIs:
+   - recency (months since last sale)
+    - average order revenue (AOR)
+    - average monthly revenue
+
+**SQL Implementation**
+- [`13_report_products.sql`](scripts/13_report_products.sql)
+
+**SQL Table Results Screenshots**
+<p align="center">
+  <img src="docs/sql_results/13_report_products.png" width="720">
+</p>
+
 
